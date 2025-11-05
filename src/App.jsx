@@ -32,7 +32,7 @@ const profile = {
   links: {
     github: "https://github.com/skotichukkala",
     linkedin: "https://www.linkedin.com/in/srivalli-kotichukkala",
-    resume: "/resume.pdf", // 👈 updated
+    resume: "/Kotichukkala_Resume.pdf", 
   },
 };
 
@@ -79,8 +79,8 @@ const experience = [
     role: "Software Engineer",
     period: "Jul 2024 – Jun 2025",
     bullets: [
-      "Built a React component library (15+ reusable UI components), improving development efficiency by 40%.",
-      "Developed Java backend services integrated with OpenAI GPT API, handling 50K+ daily requests with high accuracy.",
+      "Designed and implemented cloud-native platforms including a Donor CRM System, Volunteer Portal, and Impact Analytics Dashboard using Java (Spring Boot), React, Python, AWS, and GCP, improving engagement and data transparency across community programs.",
+      "Developed an ML-powered Donor Retention Engine leveraging AWS SageMaker, Lambda, and predictive models, increasing donor retention by 18% and automating reporting workflows by 80%.",
     ],
   },
   {
@@ -88,9 +88,8 @@ const experience = [
     role: "Software Engineer",
     period: "Aug 2020 – Jul 2022",
     bullets: [
-      "Designed a notification microservice with Spring Boot + Kafka, reducing delivery time by 40%.",
-      "Automated data consolidation/reporting with Spring Batch + Splunk, saving 6+ hours/week.",
-      "Improved testing with 200+ JUnit/TestNG cases and Selenium automation, cutting regression time by 50%."
+      "Built and maintained microservices and Open Banking APIs using Java (Spring Boot, JAX-RS) for Instant Payments (NPP) and Credit Card Management, ensuring compliance with ISO 20022 and improving performance across 10M+ monthly transactions.",
+      "Containerized services with Docker, deployed on AWS ECS and Kubernetes, and implemented CI/CD pipelines via Jenkins, reducing deployment time by 85% and increasing release frequency.",
     ],
   },
   {
@@ -98,8 +97,8 @@ const experience = [
     role: "Software Engineer Intern",
     period: "Dec 2019 - Apr 2020",
     bullets: [
-      "Built a healthcare website using Python + Django for disease prediction, achieving 81% average accuracy.",
-      "Trained ML models with PyTorch, deployed APIs via FastAPI for seamless communication.",
+      "Developed a full-stack healthcare web app using Python (Django, FastAPI) with ML algorithms to predict six diseases based on lab results, achieving ~85% accuracy and enabling real-time diagnostic insights.",
+      "Deployed the solution on AWS with integrated CI/CD and collaborated in an Agile team to optimize model inference speed and web scalability.",
     ],
   },
 ];
@@ -169,7 +168,7 @@ export default function Portfolio() {
   ))}
 </TypingHeading>
             <p className="w-full text-neutral-300">
-              With experience building solutions in fintech, healthcare, and clean-tech & sustainability, I bring a strong background as a full-stack developer skilled in Java, Python, JavaScript, TypeScript, Spring Boot, Hibernate, SQL, REST APIs, Angular, and React. My academic and professional journey spans algorithms, advanced data structures, distributed operating systems, blockchain, and computer networks. I also have hands-on expertise in Generative AI and Machine Learning, with projects involving AI agents, MCP servers, NLP, deep learning, and predictive modeling. 
+              With hands-on experience across fintech, healthcare, and sustainability, I specialize in full-stack development using Java, Python, JavaScript, TypeScript, Spring Boot, Hibernate, SQL, REST APIs, Angular, and React. My background spans algorithms, distributed systems, blockchain, and computer networks, giving me a strong foundation for building scalable, data-driven solutions. I also explore Generative AI and Machine Learning, having developed projects involving AI agents, MCP servers, NLP, deep learning, and predictive modeling. 
             </p>
             <div className="flex flex-wrap gap-3">
               <a
