@@ -1,6 +1,7 @@
 import { useMemo } from "react";
 import { motion } from "framer-motion";
 import { useState, useEffect } from "react";
+import { Analytics } from "@vercel/analytics/next"
 
 function TypingHeading() {
   const text = "I'm Srivalli, Software Engineer.";
@@ -348,6 +349,7 @@ export default function Portfolio() {
           <p className="mt-10 text-xs text-neutral-500">© {year} {profile.name}. Built with React + Tailwind.</p>
         </div>
       </footer>
+      <Analytics/>
     </div>
   );
 }
